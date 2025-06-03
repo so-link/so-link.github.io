@@ -142,16 +142,15 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-# 移除news页面
-# collections:
-#   books:
-#     output: true
-#   news:
-#     defaults:
-#       layout: post
-#     output: true
-#   projects:
-#     output: true
+collections:
+  books:
+    output: true
+  news:
+    defaults:
+      layout: post
+    output: true
+  projects:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
