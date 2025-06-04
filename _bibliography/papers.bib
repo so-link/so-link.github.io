@@ -2,38 +2,28 @@
 ---
 
 @string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@inproceedings{Differentiated2021,
+  author = {Lv, Jianming and Liu, Kaijie and He, Shengfeng},
+  title = {Differentiated Learning for Multi-Modal Domain Adaptation},
+  year = {2021},
+  isbn = {9781450386517},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3474085.3475660},
+  doi = {10.1145/3474085.3475660},
+  abstract = {Directly deploying a trained multi-modal classifier to a new environment usually leads to poor performance due to the well-known domain shift problem. Existing multi-modal domain adaptation methods treated each modality equally and optimize the sub-models of different modalities synchronously. However, as observed in this paper, the degrees of domain shift in different modalities are usually diverse. We propose a novel Differentiated Learning framework to make use of the diversity between multiple modalities for more effective domain adaptation. Specifically, we model the classifiers of different modalities as a group of teacher/student sub-models, and a novel Prototype based Reliability Measurement is presented to estimate the reliability of the recognition results made by each sub-model on the target domain. More reliable results are then picked up as teaching materials for all sub-models in the group. Considering the diversity of different modalities, each sub-model performs the Asynchronous Curriculum Learning by choosing the teaching materials from easy to hard measured by itself. Furthermore, a reliability-aware fusion scheme is proposed to combine all optimized sub-models to support final decision. Comprehensive experiments based on three multi-modal datasets with different learning tasks have been conducted, which show the superior performance of our model while comparing with state-of-the-art multi-modal domain adaptation models.},
+  booktitle = {Proceedings of the 29th ACM International Conference on Multimedia},
+  pages = {1322–1330},
+  numpages = {9},
+  keywords = {multi-modal analysis, domain adaptation, differentiated learning},
+  series = {MM '21},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  preview={wave-mechanics.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
-@article{PhysRev.47.777,
+article{PhysRev.47.777,
+  使用示例，preview 加入预览的图片，bibtex_show 显示 bibtex的引用 还有很多其他的
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
@@ -58,58 +48,7 @@
   additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
   annotation={* Example use of superscripts<br>† Albert Einstein},
   selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+  inspirehep_id = {3255},
+  preview={brownian-motion.gif},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
