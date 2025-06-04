@@ -2,19 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jm-lv.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>华南理工大学计算机科学与工程学院</p>
+    <p>jmlv@scut.edu.cn</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# social: true # includes social icons at the bottom of the page
 
 # announcements:
 #   enabled: true # includes a list of news items
@@ -27,8 +26,11 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## 基础理论研究
+研究面向大数据的多源、跨域、多模态、多视图、多尺度信息融合基础理论，探索脑启发的高效能智能算法。
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## 跨领域联合
+横跨计算机视觉、自然语言处理、数据挖掘多个研究领域，重点探讨多源、多模态、多视图数据的高效表达和协同学习机制。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## 业界前沿应用
+针对企业实际需求和真实数据，应用智能信息融合算法，创造实际价值。
