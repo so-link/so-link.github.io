@@ -1,0 +1,1 @@
+Yuchan Jie received her M.S. degree in electronic information from Foshan University in 2024. She is now pursuing her Ph.D. degree in computer science and technology from South China University of Technology. Her research interests include image enhancement and multi-modal information fusion.
