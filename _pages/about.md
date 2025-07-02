@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 实验室简介
+title: 简介
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
