@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: members of the lab or group
+title: 实验室成员
+description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 7
 
@@ -14,10 +14,6 @@ profiles:
     content: people_description/jyc.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <div style="text-align: center;">
-        <p>接玉婵</p><br>
-        <p>jyc981214@163.com</p>
-      </div>
   - align: left
     image: prof_pic.jpg
     content: about_einstein.md
