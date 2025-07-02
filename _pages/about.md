@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 关于我们
+title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
