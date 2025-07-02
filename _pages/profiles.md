@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: 实验室成员
+title: 成员
 description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 7
