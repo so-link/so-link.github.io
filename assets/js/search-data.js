@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-实验室成员",
-          title: "实验室成员",
+        },{id: "nav-成员",
+          title: "成员",
           description: "已毕业或仍在实验室工作的成员",
           section: "Navigation",
           handler: () => {
