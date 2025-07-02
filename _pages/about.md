@@ -28,7 +28,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-###深度学习与多模态智能实验室简介
+##深度学习与多模态智能实验室简介
 本实验室聚焦人工智能前沿领域，致力于多模态深度学习的核心技术研究与应用创新。团队重点攻关跨模态信息融合与鲁棒特征学习，在计算机视觉与信号处理领域取得突破性进展。核心研究方向包括：
 
 ##图像去噪与增强
