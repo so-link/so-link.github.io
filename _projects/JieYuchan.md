@@ -4,7 +4,7 @@ title: project 1
 description: with background image
 img: assets/img/jyc.png
 importance: 1
-category: Professor
+category: Current students
 related_publications: true
 ---
 
