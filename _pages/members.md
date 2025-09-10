@@ -5,22 +5,9 @@ permalink: /members/
 description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 3
-display_categories: [Graduated students, Current students]
+display_categories: [Professor,Graduated students, Current students]
 horizontal: false
 ---
-
-<!-- profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: left
-    image: jm-lv.jpg
-    content: people_description/jm-lv.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
---- -->
 
 
 <!-- pages/projects.md -->
