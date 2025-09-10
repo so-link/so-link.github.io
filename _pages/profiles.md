@@ -1,7 +1,7 @@
 ---
 layout: profiles
 title: 成员
-permalink: /people/
+permalink: /members/
 description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 3
