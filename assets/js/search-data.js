@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-成员",
-          title: "成员",
-          description: "已毕业或仍在实验室工作的成员",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -105,14 +98,14 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
+            },},{id: "projects-皆渔产",
+          title: '皆渔产',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/JieYuchan/";
-            },},{id: "projects-lvjianming",
-          title: 'Lvjianming',
-          description: "",
+            },},{id: "projects-吕建明",
+          title: '吕建明',
+          description: "实验室导师，华南理工大学计算机科学与工程学院教授，华南理工大学科学与工程学院副院长",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LvJianming/";
             },},{
