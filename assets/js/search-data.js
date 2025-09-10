@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-成员",
           title: "成员",
-          description: "A growing collection of your cool projects.",
+          description: "已毕业或仍在实验室工作的成员",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/people/";
           },
         },{id: "nav-项目",
           title: "项目",
-          description: "A growing collection of your cool projects.",
+          description: "已毕业或仍在实验室工作的成员",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
