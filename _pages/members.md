@@ -1,5 +1,5 @@
 ---
-layout: profiles
+layout: members
 title: 成员
 permalink: /members/
 description: 已毕业或仍在实验室工作的成员
