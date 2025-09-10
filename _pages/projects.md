@@ -2,7 +2,7 @@
 layout: page
 title: 项目
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 3
 display_categories: [work, fun]
