@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-论文",
-          title: "论文",
+  },{id: "nav-论文lu",
+          title: "论文lu",
           description: "实验室近年来发表的高质量论文。",
           section: "Navigation",
           handler: () => {
