@@ -4,7 +4,7 @@ permalink: /people/
 title: 成员
 description: 已毕业或仍在实验室工作的成员
 nav: true
-nav_order: 7
+nav_order: 6
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
