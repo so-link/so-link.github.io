@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profiles
 title: 成员
 permalink: /people/
 description: 已毕业或仍在实验室工作的成员
@@ -9,7 +9,7 @@ display_categories: [Graduated students, Current students]
 horizontal: false
 ---
 
-profiles:
+<!-- profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
@@ -20,7 +20,7 @@ profiles:
       <p>555 your office number</p>
       <p>123 your address street</p>
       <p>Your City, State 12345</p>
----
+--- -->
 
 
 <!-- pages/people.md -->
