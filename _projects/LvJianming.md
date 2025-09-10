@@ -14,6 +14,8 @@ related_publications: true
             <h4 style="color: #1a6fc4; margin-bottom: 10px;">个人信息</h4>
             <p style="margin: 8px 0;"><strong>职称：</strong>教授、副院长</p>
             <p style="margin: 8px 0;"><strong>导师类别：</strong>博导、硕导</p>
+            <p style="margin: 8px 0;"><strong>所在团队：</strong>多媒体技术与图形图像处理团队</p>
+                            
         </div>
         <!-- 联系信息 -->
         <div style="margin-bottom: 20px;">
@@ -22,19 +24,10 @@ related_publications: true
             <p style="margin: 8px 0;"><strong>办公电话：</strong>020-39380281-3518</p>
             <p style="margin: 8px 0;"><strong>E-mail：</strong>jmlv@scut.edu.cn</p>
         </div>
-        <!-- 团队信息 -->
-        <div style="margin-bottom: 20px;">
-            <h4 style="color: #1a6fc4; margin-bottom: 10px;">所在团队</h4>
-            <p style="padding: 10px; border-radius: 5px; border-left: 4px solid #1a6fc4;">
-                多媒体技术与图形图像处理团队
-            </p>
-        </div>
         <!-- 研究方向 -->
         <div>
-            <h4 style="color: #1a6fc4; margin-bottom: 10px;">研究方向</h4>
-            <div style="padding: 15px; border-radius: 5px;">
-                <p style="margin: 5px 0;">• 数据挖掘、计算机视觉、机器学习、分布式计算</p>
-            </div>
+            <h4 style="color: #1a6fc4; margin-bottom: 20px;">研究方向</h4>
+            <p style="margin: 8px 0;">数据挖掘、计算机视觉、机器学习、分布式计算</p>
         </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
