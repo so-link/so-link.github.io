@@ -21,7 +21,7 @@ ninja.data = [{
           description: "已毕业或仍在实验室工作的成员",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/members/";
           },
         },{id: "nav-项目",
           title: "项目",
