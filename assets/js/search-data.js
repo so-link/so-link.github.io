@@ -109,6 +109,11 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/JieYuchan/";
+            },},{id: "projects-吕建明",
+          title: '吕建明',
+          description: "实验室导师，华南理工大学计算机科学与工程学院教授，华南理工大学科学与工程学院副院长",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/LvJianming/";
             },},{
         id: 'social-email',
