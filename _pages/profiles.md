@@ -3,7 +3,7 @@ layout: profiles
 permalink: /people/
 title: 成员
 description: 已毕业或仍在实验室工作的成员
-nav: true
+nav: false
 nav_order: 6
 
 profiles:

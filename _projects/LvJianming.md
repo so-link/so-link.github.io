@@ -1,7 +1,7 @@
 ---
 layout: page
-# title: 吕建明
-# description: 实验室导师，华南理工大学计算机科学与工程学院教授，华南理工大学科学与工程学院副院长
+title: 吕建明
+description: 实验室导师，华南理工大学计算机科学与工程学院教授，华南理工大学科学与工程学院副院长
 img: assets/img/jm-lv.png
 importance: 1
 category: Professor
@@ -11,8 +11,7 @@ related_publications: true
     <div class="col-sm-8 mt-3 mt-md-0">
             <!-- 个人信息 -->
         <div style="margin-bottom: 20px;">
-            <h3 style="color: #1a6fc4; margin-bottom: 10px;">联系方式</h3>
-            <p style="margin: 8px 0;"><strong>姓名：</strong>吕建明</p>
+            <h3 style="color: #1a6fc4; margin-bottom: 10px;">个人信息</h3>
             <p style="margin: 8px 0;"><strong>职称：</strong>教授、副院长</p>
             <p style="margin: 8px 0;"><strong>导师类别：</strong>博导、硕导</p>
         </div>
@@ -26,14 +25,14 @@ related_publications: true
         <!-- 团队信息 -->
         <div style="margin-bottom: 20px;">
             <h3 style="color: #1a6fc4; margin-bottom: 10px;">所在团队</h3>
-            <p style="background-color: #f0f7ff; padding: 10px; border-radius: 5px; border-left: 4px solid #1a6fc4;">
+            <p style="padding: 10px; border-radius: 5px; border-left: 4px solid #1a6fc4;">
                 多媒体技术与图形图像处理团队
             </p>
         </div>
         <!-- 研究方向 -->
         <div>
             <h3 style="color: #1a6fc4; margin-bottom: 10px;">研究方向</h3>
-            <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px;">
+            <div style="padding: 15px; border-radius: 5px;">
                 <p style="margin: 5px 0;">• 数据挖掘</p>
                 <p style="margin: 5px 0;">• 计算机视觉</p>
                 <p style="margin: 5px 0;">• 机器学习</p>
