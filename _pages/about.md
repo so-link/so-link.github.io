@@ -82,7 +82,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
         padding: 25px 20px 15px;
     }
     .image-caption h3 {
-        color: rgba(145, 234, 246, 0.9);
+        color: #3498db;
         font-size: 1.4rem;
         margin-bottom: 8px;
     }
