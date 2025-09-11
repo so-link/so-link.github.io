@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 接玉禅
+title: 接玉婵
 description: 24级在读博士
 img: assets/img/jyc.png
 importance: 1
