@@ -31,7 +31,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
   <!-- 主要内容容器 -->
   <div style="max-width: 1000px; margin: 30px auto; padding: 0 20px;">
       <!-- 实验室简介 -->
-      <div style="background: white; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); border-left: 5px solid #3498db;">
+      <div style="background-color: transparent; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); border-left: 5px solid #3498db;">
           <h2 style="color: #2c3e50; margin-top: 0; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">实验室简介</h2>
           <p style="font-size: 1.1rem;">本实验室聚焦人工智能前沿领域，致力于多模态深度学习的核心技术研究与应用创新。团队重点攻关跨模态信息融合与鲁棒特征学习，在计算机视觉与信号处理领域取得突破性进展。</p>
       </div>
@@ -40,7 +40,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
           <h2 style="color: #2c3e50; display: inline-block; padding: 0 20px 10px; border-bottom: 3px solid #3498db;">核心研究方向</h2>
       </div>
       <!-- 研究方向1 -->
-      <div style="background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
+      <div style="background-color: transparent; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
           <div style="background: #3498db; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">1</div>
           <div>
               <h3 style="color: #2c3e50; margin-top: 0;">图像去噪与增强</h3>
@@ -48,7 +48,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
           </div>
       </div>
       <!-- 研究方向2 -->
-      <div style="background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
+      <div style="background-color: transparent; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
           <div style="background: #e74c3c; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">2</div>
           <div>
               <h3 style="color: #2c3e50; margin-top: 0;">弹性记忆网络（EMN）架构创新</h3>
@@ -56,7 +56,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
           </div>
       </div>
       <!-- 研究方向3 -->
-      <div style="background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
+      <div style="background-color: transparent; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
           <div style="background: #27ae60; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">3</div>
           <div>
               <h3 style="color: #2c3e50; margin-top: 0;">多模态协同学习</h3>
@@ -64,7 +64,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
           </div>
       </div>
       <!-- 研究成果 -->
-      <div style="background: linear-gradient(120deg, #2c3e50, #34495e); color: white; border-radius: 12px; padding: 30px; margin: 40px 0; box-shadow: 0 8px 25px rgba(0,0,0,0.15);">
+      <div style="background-color: transparent; border-radius: 12px; padding: 30px; margin: 40px 0; box-shadow: 0 8px 25px rgba(0,0,0,0.15);">
           <h2 style="margin-top: 0; text-align: center;">研究成果与影响</h2>
           <p>实验室成果发表于CVPR/MM等顶级会议，并与多家科技企业建立联合实验室，推动算法在真实场景的产业化落地。团队秉持"理论突破-算法创新-应用驱动"三位一体的研究理念，持续培养具备国际竞争力的AI研发人才。</p>
           <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 25px;">
@@ -83,7 +83,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
           </div>
       </div>
       <!-- 研究理念 -->
-      <div style="background: white; border-radius: 12px; padding: 30px; text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin: 40px 0;">
+      <div style="background-color: transparent; border-radius: 12px; padding: 30px; text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin: 40px 0;">
           <h2 style="color: #2c3e50;">研究理念</h2>
           <div style="font-size: 1.8rem; font-weight: bold; color: #3498db; line-height: 1.4; max-width: 800px; margin: 0 auto;">
               "理论突破 - 算法创新 - 应用驱动"
@@ -91,7 +91,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
           <p style="font-style: italic; margin-top: 20px; color: #7f8c8d;">三位一体的研究理念，推动人工智能技术的创新发展与产业应用</p>
       </div>
   </div>
-  <!-- 页脚 -->
-  <div style="background: #2c3e50; color: white; text-align: center; padding: 30px; margin-top: 50px;">
-      <p>© 2023 人工智能与多模态深度学习实验室 | 探索前沿 · 创新技术 · 服务社会</p>
-  </div>
+
