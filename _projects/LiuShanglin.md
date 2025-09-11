@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 接玉婵
-description: 24级在读博士
+description: 25级在读博士
 img: assets/img/lsl.jpg
 importance: 2025
 category: Current students
