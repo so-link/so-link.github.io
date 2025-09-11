@@ -34,7 +34,17 @@ related_publications: true
 </div>
 
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">个人成果</h4>
-
+[1] Y Jie, Y Xu, X Li, F Zhou, J Lv, H Li. FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution[J]. Information Fusion, 2025: 103146. (JCR Q1, IF:14.8)
+[2] Y Jie, X Li, F Zhou, H Tan. Medical image fusion based on extended difference-of-Gaussians and edge-preserving[J]. Expert Systems with Applications, 2023, 227: 120301.  (JCR Q1, IF:7.5)
+[3] Y Jie, X Li, T Tan, L Yang, M Wang. Multi-modality image fusion using fuzzy set theory and compensation dictionary learning[J]. Optics & Laser Technology, 2025, 181: 112001. (JCR Q1, IF:4.6)
+[4] Y Jie, X Li, H Tan, F Zhou, G Wang. Multi-modal medical image fusion via multi-dictionary and truncated Huber filtering[J]. Biomedical Signal Processing and Control, 2024, 88: 105671. (JCR Q1, IF:4.9)
+[5] Y Jie, X Li, F Zhou, T Ye. Tri-modal medical image fusion and denoising based on Bitonicx filtering[J]. IEEE Transactions on Instrumentation and Measurement, 2023, 72: 1-15. (JCR Q1, IF:5.6)
+[6] Y Jie, Y Chen, X Li, P Yi, H Tan, X Cheng. FUFusion: Fuzzy sets theory for infrared and visible image fusion[C]//Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Singapore: Springer Nature Singapore, 2023: 466-478. (CCF-C)
+[7] Y Jie, X Li, M Wang, H Tan. Multi-focus image fusion for full-field optical angiography[J]. Entropy, 2023, 25(6): 951. (JCR Q2, IF:2.1)
+[8] Y Jie, F Zhou, H Tan, G Wang, X Cheng, X Li. Tri-modal medical image fusion based on adaptive energy choosing scheme and sparse representation[J]. Measurement, 2022, 204: 112038. (JCR Q1, IF:5.2)
+[9] Y Xu, X Li, Y Jie, H Tan. Simultaneous tri-modal medical image fusion and super-resolution using conditional diffusion model[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham: Springer Nature Switzerland, 2024: 635-645. (CCF-B)
+[10] X Li, W Wan, F Zhou, X Cheng, Y Jie, H Tan. Medical image fusion based on sparse representation and neighbor energy activity[J]. Biomedical Signal Processing and Control, 2023, 80: 104353. (JCR Q1, IF:4.9)
+[11] Y Jie, Y Xu, X Li, H Tan. TSJNet: A multi-modality target and semantic awareness joint-driven image fusion network[J]. arXiv preprint arXiv:2402.01212, 2024.
 
 
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">学生风采</h4>
