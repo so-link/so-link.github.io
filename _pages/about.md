@@ -28,12 +28,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     .lab-card {
-        background-color: white;
         border-radius: 16px;
         padding: 35px;
         margin-bottom: 40px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        border-left: 5px solid #3498db;
+        border-left: 5px solid #d118ffff;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .lab-card:hover {
@@ -44,7 +43,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
         margin-top: 0;
         border-bottom: 2px solid #f0f0f0;
         padding-bottom: 15px;
-        color: #2c3e50;
         font-size: 1.8rem;
         display: flex;
         align-items: center;
@@ -55,7 +53,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
     }
     .lab-card p {
         font-size: 1.1rem;
-        color: #34495e;
         line-height: 1.8;
     }
     /* 图片展示区域样式 */
@@ -82,7 +79,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
         left: 0;
         right: 0;
         background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-        color: white;
         padding: 25px 20px 15px;
     }
     .image-caption h3 {
@@ -90,7 +86,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
         margin-bottom: 8px;
     }
     .image-caption p {
-        color: rgba(255,255,255,0.9);
         font-size: 1rem;
     }
     @media (max-width: 768px) {
