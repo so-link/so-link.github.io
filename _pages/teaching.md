@@ -2,7 +2,6 @@
 layout: page
 permalink: /teaching/
 title: 课程
-description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 5
 ---
@@ -129,6 +128,7 @@ nav_order: 5
         transition: all 0.3s ease;
     }
     .cta-button:hover {
+        color: white;
         transform: translateY(-3px);
         box-shadow: 0 8px 20px rgba(52, 152, 219, 0.5);
     }
