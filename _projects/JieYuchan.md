@@ -11,21 +11,19 @@ related_publications: true
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
             <!-- 个人信息 -->
-        <div style="margin-bottom: 20px;">
+        <div style="margin-bottom: 30px;">
             <h4 style="color: #1a6fc4; margin-bottom: 10px;">个人信息</h4>
             <p style="margin: 8px 0;"><strong>硕士院校：</strong>佛山大学机电工程与自动化学院</p>
         </div>
         <!-- 联系信息 -->
-        <div style="margin-bottom: 20px;">
+        <div style="margin-bottom: 30px;">
             <h4 style="color: #1a6fc4; margin-bottom: 10px;">联系方式</h4>
             <p style="margin: 8px 0;"><strong>电子邮箱：</strong>jyc981214@163.com</p>
         </div>
         <!-- 研究方向 -->
-        <div>
+        <div style="margin-bottom: 30px;">
             <h4 style="color: #1a6fc4; margin-bottom: 10px;">研究方向</h4>
-            <div style="padding: 15px; border-radius: 5px;">
                 <p style="margin: 5px 0;">图像增强、图像去噪</p>
-            </div>
         </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">

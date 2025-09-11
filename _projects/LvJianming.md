@@ -24,8 +24,8 @@ related_publications: true
             <p style="margin: 8px 0;"><strong>电子邮箱：</strong>jmlv@scut.edu.cn</p>
         </div>
         <!-- 研究方向 -->
-        <div>
-            <h4 style="color: #1a6fc4; margin-bottom: 20px;">研究方向</h4>
+        <div style="margin-bottom: 20px;">
+            <h4 style="color: #1a6fc4; margin-bottom: 10px;">研究方向</h4>
             <p style="margin: 8px 0;">数据挖掘、计算机视觉、机器学习、分布式计算</p>
         </div>
     </div>
