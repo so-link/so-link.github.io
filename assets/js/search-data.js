@@ -100,7 +100,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-接玉禅",
           title: '接玉禅',
-          description: "",
+          description: "24级在读博士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/JieYuchan/";
             },},{id: "projects-吕建明",
