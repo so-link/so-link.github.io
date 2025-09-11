@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 项目
-permalink: /project/
+permalink: /projects/
 description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 4
