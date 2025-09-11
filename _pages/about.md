@@ -82,23 +82,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
         padding: 25px 20px 15px;
     }
     .image-caption h3 {
+        color: rgba(145, 234, 246, 0.9);
         font-size: 1.4rem;
         margin-bottom: 8px;
     }
     .image-caption p {
+        color: rgba(255,255,255,0.9);
         font-size: 1rem;
     }
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
         .image-showcase {
             height: 280px;
         }  
-        .stats {
-            flex-direction: column;
-        }
-        header h1 {
-            font-size: 2.2rem;
-        }
-    }
+    } */
 </style>
 <div class="lab-card">
     <h2><i class="fas fa-flask"></i> 实验室简介</h2>
