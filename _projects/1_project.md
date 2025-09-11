@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: 多模态儿童医疗
 description: with background image
 img: assets/img/12.jpg
 importance: 1

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 3 with very long name
+title: 重定向测试
 description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com

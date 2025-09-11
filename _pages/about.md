@@ -70,7 +70,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
           <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 25px;">
               <div style="text-align: center; padding: 15px; flex: 1; min-width: 200px;">
                   <div style="font-size: 2.5rem; font-weight: bold; color: #3498db;">20+</div>
-                  <div>顶级期刊论文</div>
+                  <div>顶刊顶会论文</div>
               </div>
               <div style="text-align: center; padding: 15px; flex: 1; min-width: 200px;">
                   <div style="font-size: 2.5rem; font-weight: bold; color: #e74c3c;">5+</div>

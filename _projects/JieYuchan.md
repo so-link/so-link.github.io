@@ -23,7 +23,7 @@ related_publications: flase
         <!-- 研究方向 -->
         <div style="margin-bottom: 30px;">
             <h4 style="color: #1a6fc4; margin-bottom: 10px;">研究方向</h4>
-                <p style="margin: 5px 0;">图像增强、图像去噪</p>
+                <p style="margin: 5px 0;">多模态信息融合、图像恢复</p>
         </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">

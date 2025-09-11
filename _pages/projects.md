@@ -5,7 +5,7 @@ permalink: /projects/
 description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 4
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
 ---
 
