@@ -14,15 +14,14 @@ related_publications: true
             <h4 style="color: #1a6fc4; margin-bottom: 10px;">个人信息</h4>
             <p style="margin: 8px 0;"><strong>职称：</strong>教授、副院长</p>
             <p style="margin: 8px 0;"><strong>导师类别：</strong>博导、硕导</p>
-            <p style="margin: 8px 0;"><strong>所在团队：</strong>多媒体技术与图形图像处理团队</p>
-                            
+            <p style="margin: 8px 0;"><strong>所在团队：</strong>多媒体技术与图形图像处理团队</p>               
         </div>
         <!-- 联系信息 -->
         <div style="margin-bottom: 20px;">
             <h4 style="color: #1a6fc4; margin-bottom: 10px;">联系方式</h4>
             <p style="margin: 8px 0;"><strong>办公室：</strong>B3-518</p>
             <p style="margin: 8px 0;"><strong>办公电话：</strong>020-39380281-3518</p>
-            <p style="margin: 8px 0;"><strong>E-mail：</strong>jmlv@scut.edu.cn</p>
+            <p style="margin: 8px 0;"><strong>电子邮箱：</strong>jmlv@scut.edu.cn</p>
         </div>
         <!-- 研究方向 -->
         <div>
