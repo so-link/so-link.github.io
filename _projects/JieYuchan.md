@@ -5,7 +5,7 @@ description: 24级在读博士
 img: assets/img/jyc.png
 importance: 2024
 category: Current students
-related_publications: flase
+related_publications: false
 ---
 
 <div class="row justify-content-sm-center">

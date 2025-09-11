@@ -5,7 +5,7 @@ description: 25级在读博士
 img: assets/img/lsl.jpg
 importance: 2025
 category: Current students
-related_publications: flase
+related_publications: false
 ---
 
 <div class="row justify-content-sm-center">
