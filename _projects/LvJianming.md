@@ -5,7 +5,7 @@ description: 实验室导师
 img: assets/img/jm-lv.png
 importance: 1
 category: Professor
-related_publications: true
+related_publications: false
 ---
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
