@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 接玉婵
+title: 刘尚霖
 description: 25级在读博士
 img: assets/img/lsl.jpg
 importance: 2025
