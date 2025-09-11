@@ -105,7 +105,7 @@ ninja.data = [{
               window.location.href = "/projects/JieYuchan/";
             },},{id: "projects-吕建明",
           title: '吕建明',
-          description: "",
+          description: "实验室导师",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LvJianming/";
             },},{
