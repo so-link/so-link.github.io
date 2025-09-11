@@ -27,41 +27,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    body {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        color: #333;
-        line-height: 1.6;
-        padding: 20px;
-        min-height: 100vh;
-    }
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    header {
-        text-align: center;
-        margin-bottom: 40px;
-        padding: 20px;
-    }
-    header h1 {
-        font-size: 2.8rem;
-        color: #2c3e50;
-        margin-bottom: 10px;
-        font-weight: 700;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-    }
-    header p {
-        font-size: 1.2rem;
-        color: #7f8c8d;
-        max-width: 600px;
-        margin: 0 auto;
-    }
     .lab-card {
         background-color: white;
         border-radius: 16px;
@@ -128,32 +93,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
         color: rgba(255,255,255,0.9);
         font-size: 1rem;
     }
-    .stats {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 30px;
-        text-align: center;
-    }
-    .stat-item {
-        padding: 15px;
-    }
-    .stat-number {
-        font-size: 2.2rem;
-        font-weight: 700;
-        color: #3498db;
-        margin-bottom: 5px;
-    }
-    .stat-label {
-        color: #7f8c8d;
-        font-size: 1rem;
-    }
-    footer {
-        text-align: center;
-        margin-top: 50px;
-        padding: 20px;
-        color: #7f8c8d;
-        border-top: 1px solid #eee;
-    }
     @media (max-width: 768px) {
         .image-showcase {
             height: 280px;
@@ -170,7 +109,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
     <h2><i class="fas fa-flask"></i> 实验室简介</h2>
     <!-- 图片展示区域 -->
     <div class="image-showcase">
-        <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="人工智能实验室环境">
+{% include figure.liquid path="assets/img/intro1.jpg" title="实验室风采" class="img-fluid rounded z-depth-1" %}
         <div class="image-caption">
             <h3>智能研究环境</h3>
             <p>配备先进设备的多模态深度学习研究实验室</p>
