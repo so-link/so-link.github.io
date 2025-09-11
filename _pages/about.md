@@ -32,7 +32,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
         padding: 35px;
         margin-bottom: 40px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        border-left: 5px solid #d118ffff;
+        border-left: 5px solid #3498db;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .lab-card:hover {
