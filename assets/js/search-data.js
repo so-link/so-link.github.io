@@ -98,8 +98,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-接玉禅",
-          title: '接玉禅',
+            },},{id: "projects-接玉婵",
+          title: '接玉婵',
           description: "24级在读博士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/JieYuchan/";
