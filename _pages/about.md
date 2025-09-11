@@ -5,10 +5,10 @@ permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: right
-  image: intro.jpg
+  # align: right
+  # image: intro.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  # more_info: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 # social: true # includes social icons at the bottom of the page
@@ -23,6 +23,30 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new post items
 #   limit: 3 # leave blank to include all the blog posts
 ---
+
+<!-- 轮播图容器 -->
+<div class="carousel-container">
+    <div class="carousel">
+        <div class="carousel-inner">
+            {% for i in (1..5) %}
+            <div class="carousel-item">
+                {% include figure.liquid loading="eager" path="assets/img/jyc#{i}.jpg" title="图片 #{i}" class="img-fluid rounded z-depth-1" %}
+            </div>
+            {% endfor %}
+        </div>
+        
+        <!-- 导航箭头 -->
+        <button class="carousel-control prev">&#10094;</button>
+        <button class="carousel-control next">&#10095;</button>
+        
+        <!-- 指示器 -->
+        <div class="carousel-indicators">
+            {% for i in (1..5) %}
+            <span class="indicator" data-index="{{ forloop.index0 }}"></span>
+            {% endfor %}
+        </div>
+    </div>
+</div>
 
 #### 实验室简介
 本实验室聚焦人工智能前沿领域，致力于多模态深度学习的核心技术研究与应用创新。团队重点攻关跨模态信息融合与鲁棒特征学习，在计算机视觉与信号处理领域取得突破性进展。核心研究方向包括：
