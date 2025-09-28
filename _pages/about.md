@@ -161,12 +161,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
     </div>
 </div>
 <!-- 研究理念 -->
-<div style="background-color: transparent; border-radius: 12px; padding: 30px; text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin: 40px 0;">
+<!-- <div style="background-color: transparent; border-radius: 12px; padding: 30px; text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin: 40px 0;">
     <h2 style=" ">研究理念</h2>
     <div style="font-size: 1.8rem; font-weight: bold; color: #3498db; line-height: 1.4; max-width: 800px; margin: 0 auto;">
         "理论突破 - 算法创新 - 应用驱动"
     </div>
     <p style="font-style: italic; margin-top: 20px; color: #7f8c8d;">三位一体的研究理念，推动人工智能技术的创新发展与产业应用</p>
-</div>
+</div> -->
 <!-- </div> -->
 
