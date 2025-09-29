@@ -24,7 +24,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     .lab-card {
@@ -109,7 +108,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
     <p>本实验室聚焦人工智能前沿领域，致力于多模态深度学习的核心技术研究与应用创新。团队重点攻关跨模态信息融合与鲁棒特征学习，在计算机视觉与信号处理领域取得突破性进展。</p>
 </div>
 
-
 <!-- 主要内容容器 -->
 <!-- <div style="max-width: 1000px; margin: 30px auto; padding: 0 20px;"> -->
 
@@ -169,4 +167,3 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
     <p style="font-style: italic; margin-top: 20px; color: #7f8c8d;">三位一体的研究理念，推动人工智能技术的创新发展与产业应用</p>
 </div> -->
 <!-- </div> -->
-

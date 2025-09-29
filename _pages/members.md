@@ -5,10 +5,9 @@ permalink: /members/
 description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 3
-display_categories: [Professor, Current students,Graduated students]
+display_categories: [Professor, Current students, Graduated students]
 horizontal: false
 ---
-
 
 <!-- pages/projects.md -->
 <div class="projects">

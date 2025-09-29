@@ -66,14 +66,12 @@ related_publications: false
     <span style="font-weight: bold; color: #e74c3c;">[11]</span> Y Jie, Y Xu, X Li, H Tan. TSJNet: A multi-modality target and semantic awareness joint-driven image fusion network. <span style="font-style: italic; color: #2980b9;">arXiv preprint arXiv:2402.01212</span>, 2024.
 </div>
 
-
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">学生风采</h4>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/jyc5.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -87,7 +85,6 @@ related_publications: false
     </div>
 </div>
 
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/jyc1.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
@@ -96,7 +93,6 @@ related_publications: false
         {% include figure.liquid loading="eager" path="assets/img/jyc4.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 <!-- 底部学校信息 -->
 <div style="margin-top: 25px; text-align: center; color: #777; font-size: 14px; border-top: 1px solid #eee; padding-top: 15px;">
