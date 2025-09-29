@@ -2,7 +2,7 @@
 layout: page
 title: 卢梓锋
 description: 24级在读硕士
-img: assets/img/lzf.jpg
+img: assets/img/lzf2.jpg
 importance: 2025
 category: Current students
 related_publications: false
@@ -38,11 +38,11 @@ related_publications: false
 
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">学生风采</h4>
 <div class="row justify-content-sm-center">
-    <div class="col-sm-1 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/lzf1.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-1 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lzf2.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lzf.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
