@@ -68,6 +68,11 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-何旭怡",
+          title: '何旭怡',
+          description: "25级在读博士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/HeXuyi/";
             },},{id: "projects-接玉婵",
           title: '接玉婵',
           description: "24级在读博士",
