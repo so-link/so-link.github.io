@@ -3,7 +3,7 @@ layout: page
 title: 卢梓锋
 description: 24级在读硕士
 img: assets/img/lzf.jpg
-importance: 2025
+importance: 2024
 category: Current students
 related_publications: false
 ---
