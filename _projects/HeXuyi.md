@@ -44,7 +44,7 @@ related_publications: false
 
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">学生风采</h4>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hxy1.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
