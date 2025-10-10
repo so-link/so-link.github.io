@@ -27,13 +27,13 @@ related_publications: false
         </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gbq.jpg" title="个人图片" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/jzh.jpg" title="个人图片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <h4 style="color: #1a6fc4; margin-bottom: 30px;">个人成果</h4>
 <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <span style="font-weight: bold; color: #e74c3c;">[1]</span> Jin Z, He K and Xu D. Hybrid Coefficient Fusion in Multi-resolution Singular Value Decomposition Domain for Medical Images. <span style="font-style: italic; color: #2980b9;">8th International Conference on Image, Vision and Computing, 2023, pp.397-402.
+    <span style="font-weight: bold; color: #e74c3c;">[1]</span> Jin Z, He K and Xu D. Hybrid Coefficient Fusion in Multi-resolution Singular Value Decomposition Domain for Medical Images. <span style="font-style: italic; color: #2980b9;">8th International Conference on Image, Vision and Computing, 2023, pp.397-402.</span>
 </div>
 
 <h4 style="color: #1a6fc4; margin-bottom: 30px;">学生风采</h4>

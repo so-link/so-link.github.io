@@ -24,7 +24,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <style>
     .lab-card {
         border-radius: 16px;
@@ -54,59 +58,128 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
         font-size: 1.1rem;
         line-height: 1.8;
     }
-    /* 图片展示区域样式 */
-    .image-showcase {
+    
+    /* 轮播图样式 */
+    .carousel-showcase {
         margin: 25px 0;
         border-radius: 12px;
         overflow: hidden;
-        position: relative;
-        height: 380px;
         box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        height: 380px;
     }
-    .image-showcase img {
+    .carousel-item {
+        height: 380px;
+    }
+    .carousel-item img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: transform 0.5s ease;
     }
-    .image-showcase:hover img {
-        transform: scale(1.03);
-    }
-    .image-caption {
-        position: absolute;
+    .carousel-caption {
+        background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+        padding: 25px 20px 15px;
         bottom: 0;
         left: 0;
         right: 0;
-        background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-        padding: 25px 20px 15px;
+        text-align: left;
     }
-    .image-caption h3 {
+    .carousel-caption h3 {
         color: #3498db;
         font-size: 1.4rem;
         margin-bottom: 8px;
     }
-    .image-caption p {
+    .carousel-caption p {
         color: rgba(255,255,255,0.9);
         font-size: 1rem;
+        margin-bottom: 0;
     }
-    /* @media (max-width: 768px) {
-        .image-showcase {
-            height: 280px;
-        }  
-    } */
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 50px;
+        height: 50px;
+        background: rgba(0,0,0,0.3);
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 15px;
+    }
+    .carousel-indicators {
+        margin-bottom: 10px;
+    }
+    .carousel-indicators button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
 </style>
+
 <div class="lab-card">
     <h2><i class="fas fa-flask"></i> 实验室简介</h2>
-    <!-- 图片展示区域 -->
-    <div class="image-showcase">
-{% include figure.liquid path="assets/img/intro1.jpg" title="实验室风采" class="img-fluid rounded z-depth-1" %}
-        <div class="image-caption">
-            <h3>智能研究环境</h3>
-            <p>配备先进设备的多模态深度学习研究实验室</p>
+    
+    <!-- 图片轮播区域 -->
+    <div id="labCarousel" class="carousel slide carousel-showcase" data-bs-ride="carousel">
+        <!-- 轮播指示器 -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="2"></button>
         </div>
+        
+        <!-- 轮播内容 -->
+        <div class="carousel-inner">
+            <!-- 第一张图片 -->
+            <div class="carousel-item active">
+                <img src="assets/img/intro1.jpg" class="d-block w-100" alt="实验室环境">
+                <div class="carousel-caption">
+                    <h3>智能研究环境</h3>
+                    <p>配备先进设备的多模态深度学习研究实验室</p>
+                </div>
+            </div>
+            
+            <!-- 第二张图片 -->
+            <div class="carousel-item">
+                <img src="assets/img/intro2.jpg" class="d-block w-100" alt="团队讨论">
+                <div class="carousel-caption">
+                    <h3>团队协作</h3>
+                    <p>研究人员正在进行深入的学术讨论与交流</p>
+                </div>
+            </div>
+            
+            <!-- 第三张图片 -->
+            <div class="carousel-item">
+                <img src="assets/img/intro3.png" class="d-block w-100" alt="实验设备">
+                <div class="carousel-caption">
+                    <h3>先进设备</h3>
+                    <p>高性能计算集群与专业实验设备</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 导航按钮 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#labCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#labCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
+    
     <p>本实验室聚焦人工智能前沿领域，致力于多模态深度学习的核心技术研究与应用创新。团队重点攻关跨模态信息融合与鲁棒特征学习，在计算机视觉与信号处理领域取得突破性进展。</p>
 </div>
+
+<script>
+// 自动轮播设置
+document.addEventListener('DOMContentLoaded', function() {
+    var myCarousel = document.getElementById('labCarousel');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 4000, // 4秒切换一次
+        pause: 'hover', // 鼠标悬停时暂停
+        wrap: true // 循环播放
+    });
+});
+</script>
+
 
 <!-- 主要内容容器 -->
 <!-- <div style="max-width: 1000px; margin: 30px auto; padding: 0 20px;"> -->
