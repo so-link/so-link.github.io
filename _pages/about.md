@@ -59,21 +59,22 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
         line-height: 1.8;
     }
     
-    /* 轮播图样式 */
+    /* 轮播图样式 - 增加高度 */
     .carousel-showcase {
         margin: 25px 0;
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-        height: 380px;
+        height: 600px; /* 从380px增加到600px */
     }
     .carousel-item {
-        height: 380px;
+        height: 600px; /* 同步增加 */
     }
     .carousel-item img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain; /* 改为contain确保完整显示 */
+        background-color: #f8f9fa; /* 添加背景色避免空白 */
     }
     .carousel-caption {
         background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
@@ -117,44 +118,38 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 <div class="lab-card">
     <h2><i class="fas fa-flask"></i> 实验室简介</h2>
     
-    <!-- 图片轮播区域 -->
-    <div id="labCarousel" class="carousel slide carousel-showcase" data-bs-ride="carousel">
-        <!-- 轮播指示器 -->
+    <!-- 修改轮播容器，移除 data-bs-ride="carousel" -->
+    <div id="labCarousel" class="carousel slide carousel-showcase">
+        <!-- 轮播指示器保持不变 -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="2"></button>
+            <!-- 添加第4、5张的指示器 -->
+            <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="4"></button>
         </div>
         
-        <!-- 轮播内容 -->
+        <!-- 轮播内容保持不变 -->
         <div class="carousel-inner">
-            <!-- 第一张图片 -->
             <div class="carousel-item active">
                 <img src="assets/img/intro1.png" class="d-block w-100" alt="intro1">
             </div>
-            
-            <!-- 第二张图片 -->
             <div class="carousel-item">
                 <img src="assets/img/intro2.png" class="d-block w-100" alt="intro2">
             </div>
-            
-            <!-- 第三张图片 -->
             <div class="carousel-item">
                 <img src="assets/img/intro3.png" class="d-block w-100" alt="intro3">
             </div>
-
-            <!-- 第四张图片 -->
             <div class="carousel-item">
                 <img src="assets/img/intro4.png" class="d-block w-100" alt="intro4">
             </div>       
-
-            <!-- 第五张图片 -->
             <div class="carousel-item">
                 <img src="assets/img/intro5.png" class="d-block w-100" alt="intro5">
             </div>       
         </div>
         
-        <!-- 导航按钮 -->
+        <!-- 导航按钮保持不变 -->
         <button class="carousel-control-prev" type="button" data-bs-target="#labCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
