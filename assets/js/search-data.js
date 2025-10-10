@@ -83,6 +83,11 @@ ninja.data = [{
           description: "24级在读博士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/JieYuchan/";
+            },},{id: "projects-靳织华",
+          title: '靳织华',
+          description: "24级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/JinZhihua/";
             },},{id: "projects-刘尚霖",
           title: '刘尚霖',
           description: "25级在读博士",
