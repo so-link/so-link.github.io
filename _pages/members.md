@@ -5,10 +5,9 @@ permalink: /members/
 description: Multimodal and Brain-inspired Intelligent Computing
 nav: true
 nav_order: 3
+nav_title: 成员
 display_categories: [Professor, Current students, Graduated students]
 horizontal: false
-header:
-  align: center
 ---
 
 <!-- pages/projects.md -->
