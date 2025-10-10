@@ -68,6 +68,11 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-郭冰琦",
+          title: '郭冰琦',
+          description: "25级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GuoBingqi/";
             },},{id: "projects-何旭怡",
           title: '何旭怡',
           description: "25级在读博士",
@@ -93,6 +98,21 @@ ninja.data = [{
           description: "实验室导师",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LvJianming/";
+            },},{id: "projects-项悦悦",
+          title: '项悦悦',
+          description: "25级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/XiangYueyue/";
+            },},{id: "projects-姚一阳",
+          title: '姚一阳',
+          description: "25级在读博士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/YaoYiyang/";
+            },},{id: "projects-曾祥辉",
+          title: '曾祥辉',
+          description: "25级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ZengXianghui/";
             },},{
         id: 'social-email',
         title: 'email',
