@@ -1,12 +1,14 @@
 ---
 layout: page
-title: 成员
+title: 多模态与类脑智能计算团队
 permalink: /members/
-description: 已毕业或仍在实验室工作的成员
+description: Multimodal and Brain-inspired Intelligent Computing
 nav: true
 nav_order: 3
 display_categories: [Professor, Current students, Graduated students]
 horizontal: false
+header:
+  align: center
 ---
 
 <!-- pages/projects.md -->
