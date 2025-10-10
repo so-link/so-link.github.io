@@ -130,30 +130,28 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
         <div class="carousel-inner">
             <!-- 第一张图片 -->
             <div class="carousel-item active">
-                <img src="assets/img/intro1.jpg" class="d-block w-100" alt="实验室环境">
-                <div class="carousel-caption">
-                    <h3>智能研究环境</h3>
-                    <p>配备先进设备的多模态深度学习研究实验室</p>
-                </div>
+                <img src="assets/img/intro1.png" class="d-block w-100" alt="intro1">
             </div>
             
             <!-- 第二张图片 -->
             <div class="carousel-item">
-                <img src="assets/img/intro2.jpg" class="d-block w-100" alt="团队讨论">
-                <div class="carousel-caption">
-                    <h3>团队协作</h3>
-                    <p>研究人员正在进行深入的学术讨论与交流</p>
-                </div>
+                <img src="assets/img/intro2.png" class="d-block w-100" alt="intro2">
             </div>
             
             <!-- 第三张图片 -->
             <div class="carousel-item">
-                <img src="assets/img/intro3.png" class="d-block w-100" alt="实验设备">
-                <div class="carousel-caption">
-                    <h3>先进设备</h3>
-                    <p>高性能计算集群与专业实验设备</p>
-                </div>
+                <img src="assets/img/intro3.png" class="d-block w-100" alt="intro3">
             </div>
+
+            <!-- 第四张图片 -->
+            <div class="carousel-item">
+                <img src="assets/img/intro4.png" class="d-block w-100" alt="intro4">
+            </div>       
+
+            <!-- 第五张图片 -->
+            <div class="carousel-item">
+                <img src="assets/img/intro5.png" class="d-block w-100" alt="intro5">
+            </div>       
         </div>
         
         <!-- 导航按钮 -->
@@ -168,7 +166,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
     <p>本实验室聚焦人工智能前沿领域，致力于多模态深度学习的核心技术研究与应用创新。团队重点攻关跨模态信息融合与鲁棒特征学习，在计算机视觉与信号处理领域取得突破性进展。</p>
 </div>
 
-<script>
+<!-- <script>
 // 自动轮播设置
 document.addEventListener('DOMContentLoaded', function() {
     var myCarousel = document.getElementById('labCarousel');
@@ -178,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
         wrap: true // 循环播放
     });
 });
-</script>
+</script> -->
 
 
 <!-- 主要内容容器 -->
