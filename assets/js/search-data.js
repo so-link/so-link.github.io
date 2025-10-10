@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-成员",
-          title: "成员",
-          description: "已毕业或仍在实验室工作的成员",
+        },{id: "nav-多模态与类脑智能计算团队",
+          title: "多模态与类脑智能计算团队",
+          description: "Multimodal and Brain-inspired Intelligent Computing",
           section: "Navigation",
           handler: () => {
             window.location.href = "/members/";
