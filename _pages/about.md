@@ -59,22 +59,21 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
         line-height: 1.8;
     }
     
-    /* 轮播图样式 - 增加高度 */
     .carousel-showcase {
         margin: 25px 0;
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-        height: 600px; /* 从380px增加到600px */
+        height: 600px;
     }
     .carousel-item {
-        height: 600px; /* 同步增加 */
+        height: 600px;
     }
     .carousel-item img {
         width: 100%;
         height: 100%;
-        object-fit: contain; /* 改为contain确保完整显示 */
-        background-color: #f8f9fa; /* 添加背景色避免空白 */
+        object-fit: contain;
+        background-color: #f8f9fa;
     }
     .carousel-caption {
         background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
@@ -118,19 +117,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 <div class="lab-card">
     <h2><i class="fas fa-flask"></i> 实验室简介</h2>
     
-    <!-- 修改轮播容器，移除 data-bs-ride="carousel" -->
     <div id="labCarousel" class="carousel slide carousel-showcase">
-        <!-- 轮播指示器保持不变 -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="0" class="active"></button>
             <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="2"></button>
-            <!-- 添加第4、5张的指示器 -->
             <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="3"></button>
             <button type="button" data-bs-target="#labCarousel" data-bs-slide-to="4"></button>
         </div>
         
-        <!-- 轮播内容保持不变 -->
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/intro1.png" class="d-block w-100" alt="intro1">
@@ -149,7 +144,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
             </div>       
         </div>
         
-        <!-- 导航按钮保持不变 -->
         <button class="carousel-control-prev" type="button" data-bs-target="#labCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
@@ -158,7 +152,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
         </button>
     </div>
     
-    <p>本实验室聚焦人工智能前沿领域，致力于多模态深度学习的核心技术研究与应用创新。团队重点攻关跨模态信息融合与鲁棒特征学习，在计算机视觉与信号处理领域取得突破性进展。</p>
+    <!-- <p>本实验室聚焦人工智能前沿领域，致力于多模态深度学习的核心技术研究与应用创新。团队重点攻关跨模态信息融合与鲁棒特征学习，在计算机视觉与信号处理领域取得突破性进展。</p> -->
 </div>
 
 <!-- <script>
@@ -183,26 +177,26 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 <!-- 研究方向1 -->
 <div style="background-color: transparent; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
-    <div style="background: #3498db; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">1</div>
-    <div>
-        <h3 style="  margin-top: 0;">图像去噪与增强</h3>
-        <p>研发新一代基于深度学习的图像复原算法，针对低光照、医学影像、遥感图像等复杂场景，实现高保真噪声抑制与细节重建。</p>
-    </div>
-</div>
-<!-- 研究方向2 -->
-<div style="background-color: transparent; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
-    <div style="background: #e74c3c; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">2</div>
+    <div style="background: #e74c3c; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">1</div>
     <div>
         <h3 style="  margin-top: 0;">弹性记忆网络（EMN）架构创新</h3>
         <p>首创时空高效的弹性记忆网络框架，通过参数压缩与映射的创新架构，在保持模型精度的同时，大幅模型提升推理速度，显著降低硬件资源消耗。</p>
     </div>
 </div>
-<!-- 研究方向3 -->
+<!-- 研究方向2 -->
 <div style="background-color: transparent; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
-    <div style="background: #27ae60; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">3</div>
+    <div style="background: #27ae60; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">2</div>
     <div>
         <h3 style="  margin-top: 0;">多模态协同学习</h3>
         <p>探索视觉-语言-音频的联合表示学习，构建跨模态自监督预训练模型，为智能医疗诊断、工业质检、自动驾驶等场景提供统一感知解决方案。</p>
+    </div>
+</div>
+<!-- 研究方向3 -->
+<div style="background-color: transparent; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.06); display: flex; align-items: center;">
+    <div style="background: #3498db; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; font-size: 1.8rem; font-weight: bold;">3</div>
+    <div>
+        <h3 style="  margin-top: 0;">图像去噪与增强</h3>
+        <p>研发新一代基于深度学习的图像复原算法，针对低光照、医学影像、遥感图像等复杂场景，实现高保真噪声抑制与细节重建。</p>
     </div>
 </div>
 <!-- 研究成果 -->
