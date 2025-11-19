@@ -2,7 +2,7 @@
 layout: page
 title: 何旭怡
 description: 25级在读博士
-img: assets/img/hxy.jpg
+img: assets/img/hxy2.jpg
 importance: 2025
 category: Current students
 related_publications: false
@@ -46,6 +46,9 @@ related_publications: false
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hxy1.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
+    </div>
+        <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hxy.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

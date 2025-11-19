@@ -11,13 +11,12 @@
   address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3474085.3475660},
   doi = {10.1145/3474085.3475660},
-  abstract = {Directly deploying a trained multi-modal classifier to a new environment usually leads to poor performance due to the well-known domain shift problem. Existing multi-modal domain adaptation methods treated each modality equally and optimize the sub-models of different modalities synchronously. However, as observed in this paper, the degrees of domain shift in different modalities are usually diverse. We propose a novel Differentiated Learning framework to make use of the diversity between multiple modalities for more effective domain adaptation. Specifically, we model the classifiers of different modalities as a group of teacher/student sub-models, and a novel Prototype based Reliability Measurement is presented to estimate the reliability of the recognition results made by each sub-model on the target domain. More reliable results are then picked up as teaching materials for all sub-models in the group. Considering the diversity of different modalities, each sub-model performs the Asynchronous Curriculum Learning by choosing the teaching materials from easy to hard measured by itself. Furthermore, a reliability-aware fusion scheme is proposed to combine all optimized sub-models to support final decision. Comprehensive experiments based on three multi-modal datasets with different learning tasks have been conducted, which show the superior performance of our model while comparing with state-of-the-art multi-modal domain adaptation models.},
   booktitle = {Proceedings of the 29th ACM International Conference on Multimedia},
   pages = {1322–1330},
   numpages = {9},
   keywords = {multi-modal analysis, domain adaptation, differentiated learning},
   series = {MM '21},
-  bibtex_show={true},
+  bibtex_show={false},
   selected={true},
   preview={dlmm.png}
 }
@@ -31,8 +30,9 @@
   pages={7079--7090},
   year={2021},
   publisher={IEEE},
-  bibtex_show={true},
-  preview={jm.png}
+  bibtex_show={false},
+  preview={jm.png},
+  pdf={Chen_Adversarial_Caching_Training.pdf}
 }
 
 @InProceedings{Liu_2025_CVPR,
@@ -42,11 +42,28 @@
     month     = {June},
     year      = {2025},
     pages     = {5092-5101},
-    bibtex_show={true},
+    bibtex_show={false},
     selected={true},
     preview={cvpr25_poster_1035_00.png},
     pdf={Liu_MODfinity_Unsupervised_Domain_Adaptation_with_Multimodal_Information_Flow_Intertwining_CVPR_2025_paper.pdf}
 }
+
+@article{Jie_2025,
+   title={FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution},
+   volume={121},
+   ISSN={1566-2535},
+   url={http://dx.doi.org/10.1016/j.inffus.2025.103146},
+   DOI={10.1016/j.inffus.2025.103146},
+   journal={Information Fusion},
+   publisher={Elsevier BV},
+   author={Jie, Yuchan and Xu, Yushen and Li, Xiaosong and Zhou, Fuqiang and Lv, Jianming and Li, Huafeng},
+   year={2025},
+   month=sep, 
+   pages={103146},
+   preview={Jie_FS-Diff.jpg},
+   pdf={Jie_FS-Diff.pdf}
+}
+
 article{PhysRev.47.777,
   使用示例：
   preview 加入预览的图片，预览的图片放在 `assets/img/publication_preview/` 目录下
