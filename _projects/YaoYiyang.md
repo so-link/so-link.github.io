@@ -2,7 +2,7 @@
 layout: page
 title: 姚一阳
 description: 25级在读博士
-img: assets/img/lsl.jpg
+img: assets/img/yyy.jpg
 importance: 2025
 category: Current students
 related_publications: false
@@ -39,25 +39,25 @@ related_publications: false
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">学生风采</h4>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl1.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/yyy1.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl2.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/yyy2.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl7.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/yyy3.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl6.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/yyy5.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl3.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/yyy4.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
