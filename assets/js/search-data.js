@@ -118,6 +118,11 @@ ninja.data = [{
           description: "25级在读博士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/YaoYiyang/";
+            },},{id: "projects-叶昊林",
+          title: '叶昊林',
+          description: "25级在读博士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/YeHaolin/";
             },},{id: "projects-曾祥辉",
           title: '曾祥辉',
           description: "25级在读硕士",
