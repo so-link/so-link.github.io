@@ -68,6 +68,11 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-陈诺",
+          title: '陈诺',
+          description: "25级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ChenNuo/";
             },},{id: "projects-郭冰琦",
           title: '郭冰琦',
           description: "25级在读硕士",
@@ -88,6 +93,11 @@ ninja.data = [{
           description: "24级在读硕士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/JinZhihua/";
+            },},{id: "projects-廖豪",
+          title: '廖豪',
+          description: "24级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LiaoHao/";
             },},{id: "projects-刘尚霖",
           title: '刘尚霖',
           description: "25级在读博士",
@@ -98,6 +108,11 @@ ninja.data = [{
           description: "24级在读硕士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/LuZifeng/";
+            },},{id: "projects-罗信",
+          title: '罗信',
+          description: "24级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LuoXin/";
             },},{id: "projects-吕建明",
           title: '吕建明',
           description: "实验室导师",
@@ -108,6 +123,11 @@ ninja.data = [{
           description: "24级在读博士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/WangChengjun/";
+            },},{id: "projects-闻政",
+          title: '闻政',
+          description: "25级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/WenZheng/";
             },},{id: "projects-项悦悦",
           title: '项悦悦',
           description: "25级在读硕士",
