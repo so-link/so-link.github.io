@@ -2,7 +2,7 @@
 layout: page
 title: 王铖俊
 description: 24级在读博士
-img: assets/img/lsl.jpg
+img: assets/img/Anonymous.jpg
 importance: 2024
 category: Current students
 related_publications: false
@@ -27,7 +27,7 @@ related_publications: false
         </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lsl.jpg" title="个人图片" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Anonymous.jpg" title="个人图片" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -38,30 +38,7 @@ related_publications: false
     <span style="font-weight: bold; color: #e74c3c;">[3]</span> Zhang S, Wang C, Peng J. ABC-Learning: Attention-Boosted Contrastive Learning for unsupervised person re-identification <span style="font-style: italic; color: #2980b9;">Engineering Applications of Artificial Intelligence</span> 133, 108344 (2024).
 </div>
 
-<h4 style="color: #1a6fc4; margin-bottom: 10px;">学生风采</h4>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl1.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl2.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl7.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl6.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lsl3.jpg" title="生活照片" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<h4 style="color: #1a6fc4; margin-bottom: 30px;">学生风采</h4>
 
 <!-- 底部学校信息 -->
 <div style="margin-top: 25px; text-align: center; color: #777; font-size: 14px; border-top: 1px solid #eee; padding-top: 15px;">
