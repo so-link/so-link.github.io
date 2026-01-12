@@ -34,6 +34,8 @@ related_publications: false
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">个人成果</h4>
 <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     <span style="font-weight: bold; color: #e74c3c;">[1]</span> Cheng C, Song G, Yao Y, Zhou Q, Zhang G, Wang H. Graph-Guided Scene Reconstruction from Images with 3D Gaussian Splatting. <span style="font-style: italic; color: #2980b9;">In The Thirteenth International Conference on Learning Representations. </span><span style="color: #ffbf00ff;">(CCF A)</span>
+</div>
+<div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     <span style="font-weight: bold; color: #e74c3c;">[2]</span> Yu W, Yao Y, He L, Lv J. EdgeNeRF: Edge-Guided Regularization for Neural Radiance Fields from Sparse Views. <span style="font-style: italic; color: #2980b9;">In The Eighth Chinese Conference on Pattern Recognition and Computer Vision. </span><span style="color: #ffbf00ff;">(CCF C)</span>
 </div>
 
