@@ -45,22 +45,25 @@ related_publications: false
 
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">代表性论文</h4>
 <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <span style="font-weight: bold; color: #e74c3c;">[1]</span> Zequan Liang, Hao Luo,Xi Chen,Zhipeng Zhong,Cheng Fan, Xingrong Song, Bilian Li, Jianming Lv*. A Multi-Modal Multi-Expert Framework for Pain Assessment in Postoperative Children. <span style="font-style: italic; color: #2980b9;">IEEE Transactions on Affective Computing.</span> doi: 10.1109/TAFFC.2025.3567307. 2025.
+    <span style="font-weight: bold; color: #e74c3c;">[1]</span> Jianming Lv*, Chengjun Wang, Depin Liang, Qianli Ma, Wei Chen, Xueqi Cheng. MemFlow: A Lightweight Forward Memorizing Framework for Quick Domain Adaptive Feature Mapping. <span style="font-style: italic; color: #2980b9;">Proceedings of the Computer Vision and Pattern Recognition Conference</span>, 2026: 36968-36977. <span style="color: #ffbf00ff;">(CCF A)</span>
 </div>
 <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <span style="font-weight: bold; color: #e74c3c;">[2]</span> Shanglin Liu, Jianming Lv*, Jingdan Kang, Huaidong Zhang, Zequan Liang, Shengfeng He. MODfinity: Unsupervised Domain Adaptation with Multimodal Information Flow Intertwining. <span style="font-style: italic; color: #2980b9;">Proceedings of the Computer Vision and Pattern Recognition Conference</span>, 2025: 5092-5101. <span style="color: #ffbf00ff;">(CCF A)</span>
+    <span style="font-weight: bold; color: #e74c3c;">[2]</span> Zequan Liang, Hao Luo,Xi Chen,Zhipeng Zhong,Cheng Fan, Xingrong Song, Bilian Li, Jianming Lv*. A Multi-Modal Multi-Expert Framework for Pain Assessment in Postoperative Children. <span style="font-style: italic; color: #2980b9;">IEEE Transactions on Affective Computing.</span> doi: 10.1109/TAFFC.2025.3567307. 2025.
 </div>
 <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <span style="font-weight: bold; color: #e74c3c;">[3]</span> Jianming Lv*, Chujie Chen, Zequan Liang. Automated Scoring of Asynchronous Interview Videos Based on Multi-Modal Window-Consistency Fusion. <span style="font-style: italic; color: #2980b9;">IEEE Transactions on Affective Computing.</span>, 15(3): 799-814 (2024).
+    <span style="font-weight: bold; color: #e74c3c;">[3]</span> Shanglin Liu, Jianming Lv*, Jingdan Kang, Huaidong Zhang, Zequan Liang, Shengfeng He. MODfinity: Unsupervised Domain Adaptation with Multimodal Information Flow Intertwining. <span style="font-style: italic; color: #2980b9;">Proceedings of the Computer Vision and Pattern Recognition Conference</span>, 2025: 5092-5101. <span style="color: #ffbf00ff;">(CCF A)</span>
 </div>
 <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <span style="font-weight: bold; color: #e74c3c;">[4]</span> Jianming Lv*, Kaijie Liu, Shengfeng He. Differentiated Learning for Multi-Modal Domain Adaptation. <span style="font-style: italic; color: #2980b9;">ACM Multimedia 2021.</span> (Oral paper, 9.2% accept rate) <span style="color: #ffbf00ff;">(CCF A)</span>
+    <span style="font-weight: bold; color: #e74c3c;">[4]</span> Jianming Lv*, Chujie Chen, Zequan Liang. Automated Scoring of Asynchronous Interview Videos Based on Multi-Modal Window-Consistency Fusion. <span style="font-style: italic; color: #2980b9;">IEEE Transactions on Affective Computing.</span>, 15(3): 799-814 (2024).
 </div>
 <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <span style="font-weight: bold; color: #e74c3c;">[5]</span> Zhenguo Yang, Qing Li, Liu Wenyin, Jianming Lv*. Shared Multi-view Data Representation for Multi-domain Event Detection. <span style="font-style: italic; color: #2980b9;">IEEE Transactions on Pattern Analysis and Machine Intelligence. 2019.</span> DOI: 10.1109/TPAMI.2019.2893953.  
+    <span style="font-weight: bold; color: #e74c3c;">[5]</span> Jianming Lv*, Kaijie Liu, Shengfeng He. Differentiated Learning for Multi-Modal Domain Adaptation. <span style="font-style: italic; color: #2980b9;">ACM Multimedia 2021.</span> (Oral paper, 9.2% accept rate) <span style="color: #ffbf00ff;">(CCF A)</span>
 </div>
 <div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <span style="font-weight: bold; color: #e74c3c;">[6]</span> Jianming Lv, Weihang Chen, Qing Li, Can Yang. Unsupervised Cross-dataset person Re-identification by Transfer Learning of Spatial-temporal Patterns. <span style="font-style: italic; color: #2980b9;">CVPR 2018.</span><span style="color: #ffbf00ff;">(CCF A)</span>
+    <span style="font-weight: bold; color: #e74c3c;">[6]</span> Zhenguo Yang, Qing Li, Liu Wenyin, Jianming Lv*. Shared Multi-view Data Representation for Multi-domain Event Detection. <span style="font-style: italic; color: #2980b9;">IEEE Transactions on Pattern Analysis and Machine Intelligence. 2019.</span> DOI: 10.1109/TPAMI.2019.2893953.  
+</div>
+<div style="margin-bottom: 15px; padding: 12px; border-left: 4px solid #3498db; background-color: transparent; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <span style="font-weight: bold; color: #e74c3c;">[7]</span> Jianming Lv, Weihang Chen, Qing Li, Can Yang. Unsupervised Cross-dataset person Re-identification by Transfer Learning of Spatial-temporal Patterns. <span style="font-style: italic; color: #2980b9;">CVPR 2018.</span><span style="color: #ffbf00ff;">(CCF A)</span>
 </div>
 
 <h4 style="color: #1a6fc4; margin-bottom: 10px;">国家项目</h4>
