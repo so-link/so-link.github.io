@@ -18,17 +18,10 @@ ninja.data = [{
           },
         },{id: "nav-成员",
           title: "成员",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/members/";
-          },
-        },{id: "nav-项目",
-          title: "项目",
           description: "已毕业或仍在实验室工作的成员",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/members/";
           },
         },{id: "nav-课程",
           title: "课程",
@@ -36,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-项目",
+          title: "项目",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
@@ -83,6 +83,11 @@ ninja.data = [{
           description: "25级在读博士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HeXuyi/";
+            },},{id: "projects-简瑞旭",
+          title: '简瑞旭',
+          description: "26级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/JianRuixu/";
             },},{id: "projects-接玉婵",
           title: '接玉婵',
           description: "24级在读博士",
@@ -93,6 +98,11 @@ ninja.data = [{
           description: "24级在读硕士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/JinZhihua/";
+            },},{id: "projects-梁伟星",
+          title: '梁伟星',
+          description: "26级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LiangWeixing/";
             },},{id: "projects-廖豪",
           title: '廖豪',
           description: "24级在读硕士",
@@ -133,6 +143,11 @@ ninja.data = [{
           description: "25级在读硕士",
           section: "Projects",handler: () => {
               window.location.href = "/projects/XiangYueyue/";
+            },},{id: "projects-谢东昊",
+          title: '谢东昊',
+          description: "26级在读硕士",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/XieDonghao/";
             },},{id: "projects-姚一阳",
           title: '姚一阳',
           description: "25级在读博士",
