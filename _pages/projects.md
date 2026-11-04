@@ -2,9 +2,9 @@
 layout: page
 title: 项目
 permalink: /projects/
-description: 已毕业或仍在实验室工作的成员
+description: 
 nav: true
-nav_order: 4
+nav_order: 7
 display_categories: [work]
 horizontal: false
 ---

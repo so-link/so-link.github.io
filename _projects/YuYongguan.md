@@ -4,7 +4,7 @@ title: 余永冠
 description: 23级在读硕士
 img: assets/img/yyg.jpg
 importance: 2023
-category: Current students
+category: Graduated students
 related_publications: false
 ---
 
