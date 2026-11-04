@@ -2,7 +2,7 @@
 layout: page
 title: 成员
 permalink: /members/
-# description: Multimodal and Brain-inspired Intelligent Computing
+description: 已毕业或仍在实验室工作的成员
 nav: true
 nav_order: 3
 display_categories: [Professor, Current students, Graduated students]
